@@ -58,16 +58,6 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
 ## License
 
 Nest is [MIT licensed](LICENSE).
@@ -81,3 +71,13 @@ Nest is [MIT licensed](LICENSE).
 - I need to set this webhook for testing. So I'll try to use a service to make my local server available online
 - Then I'll try to use the API key.
 
+### SIDENOTE:
+360Dialog wants it's partners to support cloud api by Q4 this year (2023) and they declared that 
+people who doesn't will be under risk of having messages disrupted. I'll be worrying about it when 
+I get this server to work properly.
+
+
+## Setting up test server
+- I've subscribed for the free tier service of ngrok which allows me to make my local server available on a specific url
+- Step by step described here: https://ngrok.com/docs/getting-started/
+- Basically I'm using a local software to turn my computer into a server which I can use to build my webhook without any risks os spending too much money on gcp
