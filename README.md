@@ -71,3 +71,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+# Project Development
+
+## What is this:
+- So, I'm trying to build a webhook for receiving messages and sending automated responses
+- I'll be using 360dialog as my API Key Provider for interacting with whatsapp
+- I need to set this webhook for testing. So I'll try to use a service to make my local server available online
+- Then I'll try to use the API key.
+
