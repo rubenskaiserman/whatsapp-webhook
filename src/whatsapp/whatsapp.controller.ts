@@ -1,4 +1,4 @@
-import { Body, Controller, Logger, Post, Get } from '@nestjs/common';
+import { Body, Controller, Logger, Post, Get, Patch, HttpCode } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { WhatsappManagerService } from './whatsapp.service';
 
@@ -19,5 +19,14 @@ export class WhatsappManagerController {
     return {
       message: "Hello, World!",
     };
+  }
+
+  @Patch('teste')
+  @ApiOperation({
+    summary: "trying to receive a message from whatsapp"
+  })
+  @HttpCode(200)
+  async receiveMessage(@Body() body: any) {
+    this.logger.log(body);
   }
 }

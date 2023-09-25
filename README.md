@@ -81,3 +81,8 @@ I get this server to work properly.
 - I've subscribed for the free tier service of ngrok which allows me to make my local server available on a specific url
 - Step by step described here: https://ngrok.com/docs/getting-started/
 - Basically I'm using a local software to turn my computer into a server which I can use to build my webhook without any risks os spending too much money on gcp
+- I think I got what I was doing wrong. I needed to setup the on-premise API with the WhatsApp Client: https://developers.facebook.com/docs/whatsapp/on-premises/get-started#client-setup
+- I feel like I'm running circles all over again. Why the number we registered is set as On-premise API hosted by 360Dialog?
+- They themselves said we need to support cloud API. Did we configure it that way? Can we change it?
+- If it is already hosted by 360Dialog. How do I access it? Where does the data go to? This docs are all scattered. I'm pretty upset with it.
+- 
